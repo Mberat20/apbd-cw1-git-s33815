@@ -33,5 +33,14 @@ namespace apbd_cw1_git_s33815
             }
             return max;
         }
+
+        
+        public static int CalculateMin(int[] numbers)
+        {
+            if (numbers == null || numbers.Length == 0)
+                throw new ArgumentException("Array cannot be empty");
+            
+            return 0; 
+        }
     }
 }
