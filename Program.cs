@@ -7,3 +7,4 @@ if (string.IsNullOrWhiteSpace(input))
     Console.WriteLine("Error:Input can not be empty.Please try again");
     return;
 }
+Console.WriteLine($"Input: {input}");
