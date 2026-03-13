@@ -1,10 +1,13 @@
-﻿Console.WriteLine("Welcome to the Statistics Calculator");
+﻿using System;
+
+Console.WriteLine("Welcome to the ULTIMATE Statistics Calculator!");
 Console.WriteLine("Please enter a number to process:");
 string input = Console.ReadLine();
 
 if (string.IsNullOrWhiteSpace(input))
 {
-    Console.WriteLine("Error:Input can not be empty.Please try again");
+    Console.WriteLine("Error: Input cannot be empty. Please enter a valid number.");
     return;
 }
-Console.WriteLine($"Input: {input}");
+
+Console.WriteLine($"You entered: {input}");
